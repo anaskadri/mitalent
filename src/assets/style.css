@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
 :root {
     --main-color: #ffffff;
     --secondary-color: #c1dada;
@@ -9,7 +10,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
-    font-family: 'Nunito', system-ui;
+    font-family: 'Nunito', sans-serif;
     font-weight: 200;
     color: 	#000000; 
 }
@@ -33,7 +34,7 @@ html, body {
 .TopHeader > .TopHeaderMenu {
     grid-column: 1 / 2;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .TopHeader > .TopHeaderMenu > .Menu {
@@ -57,6 +58,9 @@ html, body {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     align-self: center;
+    text-decoration: none;
+    font-family: 'Nunito';
+    color: black;
 }
 
 .TopHeader > .TopHeaderLogo {
@@ -127,7 +131,7 @@ html, body {
   
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: #000;
   }
   
   /* Wrapper for item list */
@@ -139,6 +143,9 @@ html, body {
   /* Individual item */
   .bm-item {
     display: inline-block;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
   }
   
   /* Styling of overlay */
