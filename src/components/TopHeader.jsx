@@ -11,13 +11,17 @@ render () {
     return (
         <div className="TopHeader">
             <div className="TopHeaderMenu">
-                <HamburgerMenu />
+                <div className="Menu">
+                    <HamburgerMenu />
+                </div>
+                <div className="TopHeaderMenuClients"><a href="#">CLIENTS</a></div>
+                <div className="TopHeaderMenuNews"><a href="#">NEWS</a></div>
             </div>
 
             <div className="TopHeaderLogo">
                 <img src={logo} alt={logo} />
             </div>
-
+ 
             <div className="TopHeaderSearch">
                 <form id="TopHeaderSearchBar">
                     <input type="search" placeholder="Search" />
